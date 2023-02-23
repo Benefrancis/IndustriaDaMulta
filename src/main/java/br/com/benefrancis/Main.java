@@ -61,12 +61,12 @@ public class Main {
 
         System.out.println("*".repeat(15) + " TOTALIZAÇÃO "+ "*".repeat(15));
 
-        System.out.println("QTD VEÍCULOS: " + qtdVeiculos);
-        System.out.println("Multados: " + qtdMultados);
-        System.out.printf("Percentual de carros Multados: %,.2f%%\n", (float) ((qtdMultados * 100) / qtdVeiculos));
-        System.out.printf("Total de multas aplicadas: R$ %,.2f\n", somaMulta);
-        System.out.printf("Velocidade média: %,.0f KM/h\n", mediaDeVelocidade);
-        System.out.printf("Média por multa: R$ %,.2f \n", mediaPorMulta);
+        System.out.println("QUANTIDADE DE VEÍCULOS: " + qtdVeiculos);
+        System.out.println("VEÍCULOS MULTADOS: " + qtdMultados);
+        System.out.printf("PERCENTUAL DE VEICULOS MULTADOS: %,.2f%%\n", (float) ((qtdMultados * 100) / qtdVeiculos));
+        System.out.printf("VALOR TOTAL DE MULTAS APLICADAS: R$ %,.2f\n", somaMulta);
+        System.out.printf("VELOCIDADE MÉDIA DOS VEÍCULOS: %,.0f KM/h\n", mediaDeVelocidade);
+        System.out.printf("VALOR MÉDIO DAS MULTAS APLICADAS: R$ %,.2f \n", mediaPorMulta);
 
         System.out.println("*".repeat(43));
 
